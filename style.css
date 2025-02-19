@@ -568,6 +568,7 @@ Skills Container
         width: 100%;
         padding: 1rem;
     }
+
     .techs-div {
         display: flex;
         height: 50%;
@@ -599,8 +600,136 @@ Skills Container
     
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 800px) and (min-width: 600px) {
+    .whole-page {
+        background-color: #e5c185;
+        height: 550vh;
+        width: 123vw;
+    }
+    .sections {
+        padding-top: 15%;
+    }
+    .home-layout {
+        flex-direction: column;
+        height: 100%;
+        width: 100%;
+    }
+    .home-layout .left {
+        height: 50%;
+        width: 100%;
+    }
+    .home-layout .left .home-img-container {
+        width: 36%;
+        height: 46%;
+    }
+    .home-layout .right {
+        height: 50%;
+        width: 100%;
+    }
+    .home-layout .right .name {
+        font-size: 12vw;
+        height: 32%;
+        position: relative;
+        top: -9%;
+        width: 80%;
+    }
+    .home-layout .right .summary {
+        font-size: 2.5vh; 
+        position: relative;
+        top: -6%;
+        width: 72%;
+    }
+
+    .profile-layout {
+        width: 100%;
+        height: 100%;
+        justify-items: left;
+        padding: 5vh 5vw;
+    }
+    .profile-bar {
+        background-color:#fbf2c4; 
+        width:100%; 
+        height:4vh;
+    }
+    .profile-layout .profile-intro {
+        font-size: 10vw;
+        margin-top: 0;
+        animation: bounce 8s infinite;
+        height: 20%;
+    }
     
+    .desc-container {
+        height: 70%;
+        display: block;
+        padding-top: 5vh;
+    }
+    
+    .profile-layout .profile-desc {
+        font-size: 4.5vw;
+        height: auto;
+        max-height: 9.5%;
+        max-width: 100%;
+        white-space: normal;
+        word-wrap: break-word;
+        padding-left: 2vh;
+        margin-top: 2vh;
+    }
+    .skills-container {
+        height: 50%;
+    }
+    .skills-sun {
+        height: 12vh;
+        width: 12vh;
+    } 
+    
+    .skills-title {
+        font-size: 400%;
+    }
+    .skill-item {
+        font-size: 4.5vw;
+    }
+    .techs-container {
+        height: 21%;
+        width: 100%;
+        padding: 1rem;
+    }
+    .techs-title {
+        font-size: 10vw;
+    }
+    .techs-div {
+        display: flex;
+        height: 50%;
+        width: 100%;
+        justify-content: center;
+    }
+    .certs-title {
+        font-size: 10vw;
+    }
+    .carousel-container { 
+        padding-left: 5vw;  
+        padding-right: 5vw;  
+    }
+    .carousel-caption h5 {
+        font-size: 7vw;
+    }
+    .carousel-caption p {
+        font-size: 5vw;
+    }
+    .projects-title {
+        font-size: 10vw; 
+    }
+    .proj-img {
+        height: 70%;
+        width: 100%;
+        object-fit: contain;
+    }
+
+    .sections #contact {
+        height: 14%;
+    }
+    #pillNav2 {
+        font-size: 6vw;    
+    }
 }
 
 @media screen and (max-width: 768px) {

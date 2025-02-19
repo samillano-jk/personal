@@ -484,7 +484,7 @@ Skills Container
 
 
   /* MEDIA SCREENS */
-@media screen and (max-width: 600px) and (min-width: 420px) {
+@media screen and (max-width: 600px) {
     .whole-page {
         background-color: #e5c185;
         height: 550vh;
@@ -563,6 +563,9 @@ Skills Container
     .skill-item {
         font-size: 3.5vw;
     }
+    .techs-title {
+        font-size: 10vw;
+    }
     .techs-container {
         height: 21%;
         width: 100%;
@@ -575,6 +578,9 @@ Skills Container
         width: 100%;
         justify-content: center;
     }
+    .certs-title {
+        font-size: 10vw;
+    }
     .carousel-container { 
         padding-left: 5vw;  
         padding-right: 5vw;  
@@ -585,7 +591,9 @@ Skills Container
     .carousel-caption p {
         font-size: 5vw;
     }
-    
+    .projects-title {
+        font-size: 10vw;
+    }
     .proj-img {
         height: 70%;
         width: 100%;

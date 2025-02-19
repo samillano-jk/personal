@@ -1,14 +1,16 @@
 /* Tags */
 
-
-
-
-
-/* Classes */
-
 * {
     box-sizing: border-box;
 }
+
+body {
+    width: 100%;
+    overflow-x: hidden; /* Prevents horizontal scrolling */
+}
+
+
+/* Classes */
 
 /* Whole Background */
 .whole-page {

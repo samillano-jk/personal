@@ -571,9 +571,9 @@ body {
         height: 50%;
     }
     .skill-item {
-        font-size: 65%;
+        font-size: 130%;
         min-height: 45px;
-        max-height: 50px;
+        max-height: 100px;
         text-align: center;
         border: 2px solid var(--text-color);
     }
@@ -598,7 +598,7 @@ body {
         padding: 0;
     }
     .techs-container {
-        height: 30%
+        height: 30%;
     }
     .techs-div {
         row-gap: 2vw;
@@ -612,7 +612,9 @@ body {
     .tech-icon-desc {
         display: none;
     }
-
+    .certs-container {
+        height: 20%;
+    }
     .certs-title {
         font-size: 10vw;
         padding: 0;

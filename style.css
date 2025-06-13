@@ -1,6 +1,6 @@
 * {
     box-sizing: border-box;
-/*     border: 2px solid white; */
+    border: 2px solid white;
 }
 
 /* CSS Variables */
@@ -495,7 +495,7 @@ body {
     }
     .sections {
         width: 90%;
-        margin: 70px 6.5% 0 3.5%;
+        margin: 70px 5% 0 5%;
         height: 95%
     }
     .home-layout {

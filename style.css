@@ -1,6 +1,6 @@
 * {
     box-sizing: border-box;
-/*     border: 2px solid white; */
+    border: 2px solid white;
 }
 
 /* CSS Variables */
@@ -594,10 +594,11 @@ body {
     }
     .techs-title {
         font-size: 10vw;
+        text-align: center;
+        padding: 0;
     }
     .techs-container {
         height: 30%
-        text-align: center;
     }
     .techs-div {
         row-gap: 2vw;

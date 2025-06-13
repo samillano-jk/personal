@@ -88,7 +88,7 @@ body {
 }
 .home-layout .left .home-img-container {
     border-radius: 50%;
-    height: 40%;
+    height: 30%;
     width: auto;
     background-color: var(--text-color);
     overflow: hidden;
@@ -496,7 +496,7 @@ body {
         width: 100%;
     }
     .home-layout .left .home-img-container {
-        width: 36%;
+        width: 50%;
         height: auto;
     }
     .home-layout .right {

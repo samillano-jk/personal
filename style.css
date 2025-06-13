@@ -1,6 +1,6 @@
 * {
     box-sizing: border-box;
-    /* border: 2px solid black; */
+    /* border: 2px solid white; */
 }
 
 /* CSS Variables */
@@ -9,6 +9,7 @@
     --skillpage-height: 300vh;
     --section-home: 90vh;
     --section-profile: 105vh;
+
     --background-color: #000000;
     --dark-blue: #1b2a41;
     --light-gray-blue: #324a5f;
@@ -47,6 +48,7 @@ body {
 .medium-text {
     font-size: 20px;
 }
+
 
 
 /* Navigation Bar */
@@ -473,11 +475,16 @@ body {
   /* MEDIA SCREENS */
 @media screen and (max-width: 600px) {
     .home-page {
-        height: 220vh;
+        height: 215vh;
         width: 100vw;
     }
+    #home {
+        height: 45%;
+    }
     .sections {
-        padding-top: 15%;
+        width: 90%;
+        margin: 70px 6.5% 0 3.5%;
+        height: 95%
     }
     .home-layout {
         flex-direction: column;
@@ -510,18 +517,21 @@ body {
         width: 72%;
     }
 
+    #profile {
+        height: 55%;
+    }
     .profile-layout {
         width: 100%;
         height: 100%;
         justify-items: left;
-        padding: 5vh 5vw;
     }
     .profile-bar { 
         width:100%; 
         height:4vh;
+        padding-top: 5px;
     }
     .profile-layout .profile-intro {
-        font-size: 6vw; 
+        font-size: 30px; 
         margin-top: 0;
         animation: bounce 8s infinite;
         height: 20%;
@@ -530,11 +540,11 @@ body {
     .desc-container {
         height: 70%;
         display: block;
-        padding-top: 5vh;
+        padding-top: 10px;
     }
     
     .profile-layout .profile-desc {
-        font-size: 3vw;
+        font-size: 17px;
         height: auto;
         max-height: 10%;
         max-width: 100%;

@@ -615,6 +615,9 @@ body {
 
     .certs-title {
         font-size: 10vw;
+        padding: 0;
+        margin: 0;
+        text-align: center;
     }
     .certs-div a {
     font-size: 20px;

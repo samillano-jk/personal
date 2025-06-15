@@ -1,16 +1,21 @@
 * {
     box-sizing: border-box;
-/*     border: 2px solid white; */
+    /* border: 2px solid white; */
+    background-color: transparent;
 }
 
 /* CSS Variables */
 :root {
     --homepage-height: 210vh;
     --skillpage-height: 300vh;
-    --section-home: 90vh;
-    --section-profile: 105vh;
     --projectpage-height: 130vh;
     --contactpage-height: 105vh;
+
+    --section-home: 90vh;
+    --section-profile: 105vh;
+    --section-project: ;
+    --section-contact: ;
+    
 
     --background-color: #000000;
     --dark-blue: #1b2a41;
@@ -22,6 +27,7 @@
 
 html {
     background-color: var(--background-color);
+    scroll-behavior: smooth;
 }
 
 body {
@@ -142,6 +148,7 @@ body {
     width: 90%;
     margin: auto;
     padding: 5%;
+
     
 }
 .profile-bar {
@@ -173,6 +180,7 @@ body {
     overflow: hidden;
     padding-left: 2vh;
     color: var(--text-color);
+
 }
 
 
@@ -237,7 +245,6 @@ body {
     padding: 0 1vw;
     align-content: center;
     margin: auto;
-    overflow: wrap;
 }
 .skill-item {
     width: 50%;
@@ -247,7 +254,6 @@ body {
     font-size: 2.5vw;
     box-shadow: 0 5px 0 #060c11;
     background-color: var(--dark-blue);
-    /* background-color: var(--text-color); */
 }
 
 /* Technologies Container */
@@ -334,7 +340,7 @@ body {
 }
 #projects {
     width: 100%;
-    height: auto;
+    height: var(--section-project);
     background-color: var(--dark-gray-blue);
     border-radius: 30px;
 }
@@ -378,7 +384,7 @@ body {
     overflow: hidden;
     
 }
-.carousel-caption h5,p {
+.carousel-caption h5, .carousel-caption p {
     background-color: var(--dark-gray-blue);
     width: auto;
 }

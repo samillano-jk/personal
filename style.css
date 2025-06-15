@@ -1,6 +1,6 @@
 * {
     box-sizing: border-box;
-/*     border: 2px solid white; */
+    border: 2px solid white;
 }
 
 /* CSS Variables */
@@ -655,8 +655,11 @@ body {
     font-size: 20px;
     }
     
+    .project-page {
+        height: 110vh;
+    }
     .carousel-container { 
-        height: 80vh;
+        height: 70vh;
         padding-left: 5vw;  
         padding-right: 5vw;  
     }

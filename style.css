@@ -226,7 +226,7 @@ body {
     padding: 0 1vw;
     align-content: center;
     margin: auto;
-    overflow: hidden;
+    overflow: wrap;
 }
 .skill-item {
     width: 50%;

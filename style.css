@@ -1,6 +1,6 @@
 * {
     box-sizing: border-box;
-    border: 2px solid white;
+    /* border: 2px solid white; */
 }
 
 /* CSS Variables */
@@ -333,7 +333,7 @@ body {
 #projects {
     width: 100%;
     height: auto;
-    background-color: #008585;
+    background-color: var(--dark-gray-blue);
 }
 .projects-layout {
     width: 100%;
@@ -359,7 +359,7 @@ body {
     padding-right: 5rem;  
     padding-top: 2.5rem;  
     padding-bottom: 2.5rem;  
-    background-color: #017474;
+    background-color: var(--dark-blue);
     align-content: center;
 }
 

@@ -1,12 +1,3 @@
-// Function to scroll to a specific section on the page
-function scrollToSection(sectionId) {
-    const section = document.getElementById(sectionId);
-    window.scrollTo({
-        top: section.offsetTop, 
-        behavior: 'smooth'
-    });
-}
-
 // TYPING TEXT FUNCTION --------------------------------------------------------------------
 // Select all paragraphs with the class 'typed-paragraph'
 const typedParagraphs = document.querySelectorAll('.profile-desc');
@@ -70,7 +61,7 @@ window.addEventListener("scroll", function () {
         navbar.style.display = "flex";
     } else if (scrollTop > lastScrollTop) {
         // Scrolling down → Hide navbar
-        navbar.style.top = "-60px"; 
+        navbar.style.top = "-100px"; 
     } else {
         // Scrolling up → Show navbar (INCLUDING hamburger menu)
         navbar.style.top = "0";

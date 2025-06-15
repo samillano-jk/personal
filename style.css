@@ -656,6 +656,7 @@ body {
     }
     
     .carousel-container { 
+        height: 80vh;
         padding-left: 5vw;  
         padding-right: 5vw;  
     }
@@ -675,9 +676,6 @@ body {
     }
     .sections #contact {
         height: 14%;
-    }
-    #pillNav2 {
-        font-size: 4vw;    
     }
     
 }
@@ -836,9 +834,6 @@ body {
 
     .sections #contact {
         height: 14%;
-    }
-    #pillNav2 {
-        font-size: 6vw;    
     }
 }
 

@@ -382,10 +382,6 @@ body {
     overflow: hidden;
     
 }
-.carousel-caption h5, .carousel-caption p {
-    background-color: var(--dark-gray-blue);
-    width: auto;
-}
 
 .proj-img {
     height: 75%;

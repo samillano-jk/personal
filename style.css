@@ -298,11 +298,9 @@ body {
     width: 100%;
     background-color: var(--light-gray-blue);
 }
-
 .certs-div {
     height: 60%;
     padding: 1rem 4rem;
-
 }
 .certs-title {
     width: 100%;
@@ -530,7 +528,7 @@ body {
         width: 100%;
     }
     .home-layout .left .home-img-container {
-        width: 40%;
+        width: 50%;
         height: auto;
     }
     .home-layout .right {
